@@ -1,0 +1,14 @@
+pandas
+openpyxl
+numpy
+statsmodels
+scikit-learn
+prophet
+xgboost
+plotly
+uvicorn
+fastapi
+python-multipart
+pydantic
+sqlalchemy
+alembic

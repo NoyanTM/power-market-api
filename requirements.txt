@@ -9,6 +9,3 @@ plotly
 uvicorn
 fastapi
 python-multipart
-pydantic
-sqlalchemy
-alembic

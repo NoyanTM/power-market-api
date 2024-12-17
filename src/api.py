@@ -30,7 +30,7 @@ app = FastAPI()
 app.mount("/static", StaticFiles(directory=BASE_DIR / "static", html=True), name="static")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://energylab.kz", "http://energylab.kz", "http://185.27.134.224", "https://185.27.134.224"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
